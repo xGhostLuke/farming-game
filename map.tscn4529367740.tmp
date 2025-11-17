@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://ckfj04hwdmyvd"]
+
+[ext_resource type="Script" uid="uid://57vlna5lr2ih" path="res://Scripts/GroundScript.gd" id="1_t7tip"]
+[ext_resource type="Texture2D" uid="uid://c23yc7flnmgdv" path="res://Sprites/GroundTilemap.png" id="2_tv015"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t7tip"]
+texture = ExtResource("2_tv015")
+1:1/0 = 0
+3:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_tv015"]
+sources/0 = SubResource("TileSetAtlasSource_t7tip")
+
+[node name="Map" type="TileMapLayer"]
+tile_set = SubResource("TileSet_tv015")
+script = ExtResource("1_t7tip")
