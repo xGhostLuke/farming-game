@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://b6cxeguutbg0m"]
 
-[ext_resource type="PackedScene" uid="uid://c5c0gwb80suv4" path="res://hoverTile.tscn" id="1_feb8i"]
-[ext_resource type="PackedScene" uid="uid://ckfj04hwdmyvd" path="res://map.tscn" id="1_qrja6"]
-[ext_resource type="PackedScene" uid="uid://bcm4t8f46f0m8" path="res://Player.tscn" id="2_co24e"]
+[ext_resource type="PackedScene" uid="uid://c5c0gwb80suv4" path="res://Nodes/hoverTile.tscn" id="1_feb8i"]
+[ext_resource type="PackedScene" uid="uid://ckfj04hwdmyvd" path="res://Nodes/map.tscn" id="1_qrja6"]
+[ext_resource type="PackedScene" uid="uid://bcm4t8f46f0m8" path="res://Nodes/Player.tscn" id="2_co24e"]
 
 [node name="testing" type="Node2D"]
 

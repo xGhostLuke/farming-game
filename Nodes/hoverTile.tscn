@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c5c0gwb80suv4"]
 
 [ext_resource type="Texture2D" uid="uid://b727e3ue3pwan" path="res://Sprites/hoverTile.png" id="1_fvy3l"]
-[ext_resource type="Script" uid="uid://chdxcwfxayvo3" path="res://HoverTileScript.gd" id="2_pugpg"]
+[ext_resource type="Script" uid="uid://chdxcwfxayvo3" path="res://Scripts/HoverTileScript.gd" id="2_pugpg"]
 
 [node name="HoverTile" type="Sprite2D"]
 texture = ExtResource("1_fvy3l")
