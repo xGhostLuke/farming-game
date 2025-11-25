@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="SeedBag" load_steps=3 format=3 uid="uid://lkhsrcmb0ylb"]
+
+[ext_resource type="Texture2D" uid="uid://dywawpvlnvjm3" path="res://Sprites/WeedSeedBackItemTexture.png" id="1_mgca8"]
+[ext_resource type="Script" uid="uid://dtkrvqfo3kxex" path="res://Scripts/SeedBag.gd" id="2_mgca8"]
+
+[resource]
+script = ExtResource("2_mgca8")
+plant = 1
+itemName = "WeedSeedBag"
+image = ExtResource("1_mgca8")
+action = 3
+metadata/_custom_type_script = "uid://dpkghf4kjwua0"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://euhd2aghvcem"]
+
+[ext_resource type="Script" uid="uid://dpkghf4kjwua0" path="res://Scripts/ItemResource.gd" id="1_qrupf"]
+[ext_resource type="Texture2D" uid="uid://bbreb8lnfo0ah" path="res://Sprites/HoeItemTexture.png" id="1_rpbeu"]
+
+[resource]
+script = ExtResource("1_qrupf")
+itemName = "Hoe"
+image = ExtResource("1_rpbeu")
+action = 1
+metadata/_custom_type_script = "uid://dpkghf4kjwua0"

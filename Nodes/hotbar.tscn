@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://4vpywmsfvoxg"]
+
+[ext_resource type="Script" uid="uid://btw4sfgfkgxf1" path="res://Scripts/HotbarScript.gd" id="1_mlaae"]
+[ext_resource type="PackedScene" uid="uid://bsiuf6oya48ox" path="res://Nodes/hotbar_frame.tscn" id="2_p45ic"]
+
+[node name="Hotbar" type="Node2D"]
+script = ExtResource("1_mlaae")
+
+[node name="HotbarFrame1" parent="." instance=ExtResource("2_p45ic")]
+
+[node name="HotbarFrame2" parent="." instance=ExtResource("2_p45ic")]
+position = Vector2(34, 0)
+
+[node name="HotbarFrame3" parent="." instance=ExtResource("2_p45ic")]
+position = Vector2(68, 0)
+
+[node name="HotbarFrame4" parent="." instance=ExtResource("2_p45ic")]
+position = Vector2(102, 0)
+
+[node name="HotbarFrame5" parent="." instance=ExtResource("2_p45ic")]
+position = Vector2(136, 0)
+
+[node name="HotbarFrame6" parent="." instance=ExtResource("2_p45ic")]
+position = Vector2(170, 0)

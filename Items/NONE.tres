@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://bufgryshx4oes"]
+
+[ext_resource type="Script" uid="uid://dpkghf4kjwua0" path="res://Scripts/ItemResource.gd" id="1_aampc"]
+[ext_resource type="Texture2D" uid="uid://cuauajtf1f55m" path="res://Sprites/HotbarFrameTexture.png" id="1_fcxki"]
+
+[resource]
+script = ExtResource("1_aampc")
+itemName = "NONE"
+image = ExtResource("1_fcxki")
+metadata/_custom_type_script = "uid://dpkghf4kjwua0"
